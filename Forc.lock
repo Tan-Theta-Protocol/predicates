@@ -1,0 +1,59 @@
+[[package]]
+name = "core"
+source = "path+from-root-0F7AE5E23B79F5C1"
+
+[[package]]
+name = "order_predicate"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "redemption_predicate"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "reserve_predicate"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "standards"
+source = "git+https://github.com/FuelLabs/sway-standards?tag=v0.4.3#6f63eb7dff2458a7d976184e565b5cbf26f61da2"
+dependencies = ["std"]
+
+[[package]]
+name = "std"
+source = "git+https://github.com/fuellabs/sway?tag=v0.65.1#3a9c171cd43611d7ccad94ab66a5093c6634717b"
+dependencies = ["core"]
+
+[[package]]
+name = "sway_libs"
+source = "git+https://github.com/FuelLabs/sway-libs?tag=v0.21.0#6a227ed34c86fe1ebd334dbdfeccf66c43e3915b"
+dependencies = [
+    "standards",
+    "std",
+]
+
+[[package]]
+name = "test-script"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "token-contract"
+source = "member"
+dependencies = [
+    "standards",
+    "std",
+    "sway_libs",
+]
+
+[[package]]
+name = "vrf-contract"
+source = "member"
+dependencies = [
+    "standards",
+    "std",
+    "sway_libs",
+]

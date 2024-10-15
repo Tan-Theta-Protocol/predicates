@@ -1,0 +1,2 @@
+[workspace]
+members = [ "vrf_contract", "token_contract", "script", "redemption_predicate", "reserve_predicate", "order_predicate" ]

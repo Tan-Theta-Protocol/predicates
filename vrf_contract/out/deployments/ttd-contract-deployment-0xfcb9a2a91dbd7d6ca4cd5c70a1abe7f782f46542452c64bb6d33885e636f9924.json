@@ -1,0 +1,9 @@
+{
+  "transaction_id": "0x2537468e87b3415ad6929b24f87951b6a88e2b0833b377acccbece861053f2a6",
+  "salt": "0x51f2b38b0325dc4e454915c080ae47d277714e24b4ec821569975cc69860e2c1",
+  "network_endpoint": "https://testnet.fuel.network",
+  "chain_id": 0,
+  "contract_id": "0xfcb9a2a91dbd7d6ca4cd5c70a1abe7f782f46542452c64bb6d33885e636f9924",
+  "deployment_size": 29648,
+  "deployed_block_height": 12280901
+}
